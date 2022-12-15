@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import '../App.css'
 
 const Slider = () => {
@@ -8,7 +8,10 @@ const Slider = () => {
      const [slider2, setSlider2] = useState('');
      const [cnt, setCnt] = useState(0)
 
-     {
+     useEffect(() => {
+
+
+
           setTimeout(() => {
 
                if (cnt % 2 == 0) {
@@ -22,7 +25,7 @@ const Slider = () => {
                }
 
           }, 2000)
-     }
+     }, [])
 
      return (
           <>      {/*==================================================*/}
