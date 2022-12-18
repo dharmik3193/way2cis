@@ -137,3 +137,35 @@
 .navbar-toggler {
   color: black !important;
 }
+
+.footer_location {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.location_head {
+  color: #fff !important;
+}
+
+.address {
+  max-width: 100% !important;
+}
+.location ul li {
+  padding-left: 28px;
+}
+.location ul li:first-child {
+  padding-left: 0px;
+}
+.location ul li i {
+  display: inline-block;
+  position: absolute;
+  /* top: 10px; */
+  left: 15px;
+  margin-top: 7px;
+  /* font-size: 14px; */
+}
+
+.location a {
+  color: #fff;
+}

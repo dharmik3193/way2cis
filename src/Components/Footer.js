@@ -1,3 +1,6 @@
+import { BsInstagram } from "react-icons/bs";
+import '../App.css'
+
 const Footer = () => {
      return (
           <>
@@ -12,13 +15,12 @@ const Footer = () => {
                          <div className="row">
                               <div className="col-lg-3 col-md-6 col-sm-12">
                                    <div className="widget widgets-company-info">
-                                        <div className="footer-bottom-logo py-2">
+                                        <div className="footer-bottom-logo py-2 mb-3">
                                              <img src="assets/images/logo.png" alt="" className="footer_logo" />
                                         </div>
                                         <div className="company-info-desc">
                                              <p>
-                                                  Condimentum rhoncus, sem quam semper libero, sit amet adipiscing
-                                                  sem neque sed ipsum. Nam quam nunc, blandit vel, luctus.
+                                                  CIS is a multi-company, multi division, multi-branch, multi location, multi-currency based application, which cover the entire area of operations for organization, such as financial management, purchase management, stock control, sales management, fixed assets management, and payroll.
                                              </p>
                                         </div>
                                         <div className="follow-company-info pt-3">
@@ -28,17 +30,16 @@ const Footer = () => {
                                                   </a>
                                              </div>
                                              <div className="follow-company-icon">
-                                                  <a href="#">
+                                                  <a href="https://www.facebook.com/WAY2CIS/" target="_blank">
                                                        <i className="fa fa-facebook" />
                                                   </a>
-                                                  <a href="#">
-                                                       <i className="fa fa-twitter" />
+                                                  <a href="https://www.instagram.com/way2cis/" target="_blank">
+                                                       {/* <i className="fa fa-twitter" /> */}
+                                                       {/* <AiFillInstagram /> */}
+                                                       <BsInstagram className='mb-1' />
                                                   </a>
-                                                  <a href="#">
+                                                  <a href="https://www.linkedin.com/company/way2cis/" target="_blank">
                                                        <i className="fa fa-linkedin" />
-                                                  </a>
-                                                  <a href="#">
-                                                       <i className="fa fa-skype" />
                                                   </a>
                                              </div>
                                         </div>
@@ -46,7 +47,7 @@ const Footer = () => {
                               </div>
                               <div className="col-lg-3 col-md-6 col-sm-12">
                                    <div className="widget widget-nav-menu">
-                                        <h4 className="widget-title pb-4">Our Services</h4>
+                                        {/* <h4 className="widget-title pb-4">Our Services</h4>
                                         <div className="menu-quick-link-container ml-4">
                                              <ul id="menu-quick-link" className="menu">
                                                   <li>
@@ -68,89 +69,55 @@ const Footer = () => {
                                                        <a href="#">Social Marketing</a>
                                                   </li>
                                              </ul>
+                                        </div> */}
+
+                                        <div class="col-md-3 address">
+                                             <div class="location">
+                                                  <h3 className="location_head my-2">India</h3>
+                                                  <ul className="footer_location mt-4">
+                                                       <li className="my-1">WAY2CIS</li>
+                                                       <li className="my-1"><i class="fa fa-home"></i> 803/Gala Empire, Opp. Door-Darshan Tower, Thaltej, Ahmedabad, Gujarat-380059, India.</li>
+                                                       <li className="my-1"><i class="fa fa-phone"></i> <a href="tel:+919427385096">+91 94273 85096</a></li>
+                                                       <li className="my-1"><i class="fa fa-envelope"></i> <a href="mailto:maulik@way2cis.com"> maulik@way2cis.com </a></li>
+                                                  </ul>
+                                             </div>
+
                                         </div>
+
                                    </div>
                               </div>
                               <div className="col-lg-3 col-md-6 col-sm-12">
-                                   <div className="widget widgets-company-info">
-                                        <h3 className="widget-title pb-4">Company Address</h3>
-                                        <div className="company-info-desc">
-                                             <p>
-                                                  Porem awesome dolor sitework amet, consetur acing elit, sed do
-                                                  eiusmod ligal
-                                             </p>
-                                        </div>
-                                        <div className="footer-social-info">
-                                             <p>
-                                                  <span>Address :</span>54/1 New dhas sorini Asut, Melbord
-                                                  Austria.
-                                             </p>
-                                        </div>
-                                        <div className="footer-social-info">
-                                             <p>
-                                                  <span>Phone :</span>54786547521
-                                             </p>
-                                        </div>
-                                        <div className="footer-social-info">
-                                             <p>
-                                                  <span>Email :</span>demo@example.com
-                                             </p>
-                                        </div>
+                                   <div class="location">
+                                        <h3 className="location_head my-2">Oman</h3>
+                                        <ul className="footer_location mt-4">
+                                             <li className="my-1">Modern Advance Computer System LLC</li>
+                                             <li className="my-1"><i class="fa fa-home"></i>P.O.Box:1890, PC:130 Sultanate of Oman</li>
+                                             <li className="my-1"><i class="fa fa-phone"></i> <a href="tel:+968-91945242">+968-91945242</a></li>
+                                             <li className="my-1"><i class="fa fa-envelope"></i> <a href="mailto:info@way2cis.com"> info@way2cis.com </a></li>
+                                        </ul>
                                    </div>
                               </div>
                               <div className="col-lg-3 col-md-6 col-sm-12">
-                                   <div id="em-recent-post-widget">
-                                        <div className="single-widget-item">
-                                             <h4 className="widget-title pb-3">Popular Post</h4>
-                                             <div className="recent-post-item active pb-3">
-                                                  <div className="recent-post-image mr-3">
-                                                       <a href="#">
-                                                            <img
-                                                                 width={80}
-                                                                 height={80}
-                                                                 src="assets/images/recent1.jpg"
-                                                                 alt=""
-                                                            />
-                                                       </a>
-                                                  </div>
-                                                  <div className="recent-post-text">
-                                                       <h6>
-                                                            <a href="#">Tiktok Illegally collecting data sharing</a>
-                                                       </h6>
-                                                       <span className="rcomment">December 12, 2022</span>
-                                                  </div>
-                                             </div>
-                                             <div className="recent-post-item pt-1">
-                                                  <div className="recent-post-image mr-3">
-                                                       <a href="#">
-                                                            <img
-                                                                 width={80}
-                                                                 height={80}
-                                                                 src="assets/images/recent3.jpg"
-                                                                 alt=""
-                                                            />
-                                                       </a>
-                                                  </div>
-                                                  <div className="recent-post-text">
-                                                       <h6>
-                                                            <a href="#">How can use our latest news by</a>
-                                                       </h6>
-                                                       <span className="rcomment">December 15, 2022</span>
-                                                  </div>
-                                             </div>
-                                        </div>
+                                   <div class="location">
+                                        <h3 className="location_head my-2">U.A.E</h3>
+                                        <ul className="footer_location mt-4">
+                                             <li className="my-1">Modern Advance Computer System Fze</li>
+                                             <li className="my-1"><i class="fa fa-home"></i>P.O.Box: 7073, Umm Al Quwain, U.A.E</li>
+                                             <li className="my-1"><i class="fa fa-phone"></i> <a href="tel:+971-523308910">+971-523308910</a></li>
+                                             <li className="my-1"><i class="fa fa-envelope"></i> <a href="mailto:info@way2cis.com"> info@way2cis.com </a></li>
+                                        </ul>
                                    </div>
                               </div>
                          </div>
                          <div className="row footer-bottom mt-70 pt-3 pb-1">
-                              <div className="col-lg-6 col-md-6">
+                              <div className="col-lg-12 col-md-12">
                                    <div className="footer-bottom-content">
                                         <div className="footer-bottom-content-copy">
-                                             <p>© 2022 Techno.All Rights Reserved. </p>
+                                             <p>© 2022 WAY2CIS || All Rights Reserved. </p>
                                         </div>
                                    </div>
                               </div>
-                              <div className="col-lg-6 col-md-6">
+                              {/* <div className="col-lg-6 col-md-6">
                                    <div className="footer-bottom-right">
                                         <div className="footer-bottom-right-text">
                                              <a className="absod" href="#">
@@ -159,7 +126,7 @@ const Footer = () => {
                                              <a href="#"> Terms &amp; Conditions</a>
                                         </div>
                                    </div>
-                              </div>
+                              </div> */}
                          </div>
                     </div>
                </div>
