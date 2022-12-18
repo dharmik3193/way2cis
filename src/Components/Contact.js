@@ -6,7 +6,7 @@ const Contact = () => {
                {/*==================================================*/}
                <div
                     className="contact_area pt-85 pb-90"
-               // style={{ backgroundImage: "url(assets/images/bg-cnt.jpg)" }}
+                    style={{ backgroundImage: "url(assets/images/bg-cnt.jpg)" }}
                >
                     <div className="container">
                          <div className="row">

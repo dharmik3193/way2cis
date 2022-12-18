@@ -6710,6 +6710,11 @@ a.team-color3 i {
     border-radius: 33% 66% 70% 30%/49% 62% 38% 51% !important;
 	display:inline-block;
 }
+
+.techno_flipbox_back{
+    background-image: url('./assets/images/');
+}
+
 .it_work_style_two .techno_flipbox_font {
     background: #ffffff;
     border: 2px solid #e8ecfc;

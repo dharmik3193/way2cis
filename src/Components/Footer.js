@@ -12,8 +12,8 @@ const Footer = () => {
                          <div className="row">
                               <div className="col-lg-3 col-md-6 col-sm-12">
                                    <div className="widget widgets-company-info">
-                                        <div className="footer-bottom-logo pb-40">
-                                             <img src="assets/images/logo.png" alt="" />
+                                        <div className="footer-bottom-logo py-2">
+                                             <img src="assets/images/logo.png" alt="" className="footer_logo" />
                                         </div>
                                         <div className="company-info-desc">
                                              <p>

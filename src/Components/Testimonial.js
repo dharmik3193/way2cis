@@ -1,4 +1,4 @@
-const testimonial = () => {
+const Testimonial = () => {
      return (
           <>
 
@@ -127,4 +127,4 @@ const testimonial = () => {
 }
 
 
-export default testimonial
+export default Testimonial

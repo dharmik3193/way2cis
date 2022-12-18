@@ -15,7 +15,7 @@ const Headerdemo = () => {
                                         <div className="header_top_menu_address_inner">
                                              <ul>
                                                   <li>
-                                                       <a href="#">
+                                                       <a href="mailto:info@way2cis.com">
                                                             <i className="fa fa-envelope-o" />
                                                             info@way2cis.com
                                                        </a>
@@ -27,7 +27,7 @@ const Headerdemo = () => {
                                                        </a>
                                                   </li> */}
                                                   <li>
-                                                       <a href="#" >
+                                                       <a href="tel:+968-91945242" >
                                                             <i className="fa fa-phone" />+968-91945242
                                                        </a>
                                                   </li>

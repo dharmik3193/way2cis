@@ -119,6 +119,14 @@
   padding-bottom: 10px;
 }
 
+.footer-bottom-logo {
+  background-color: #fff;
+}
+
+.footer_logo {
+  width: 100%;
+}
+
 .nav-link {
   color: black !important;
   font-weight: 500;
