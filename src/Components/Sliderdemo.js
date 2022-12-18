@@ -1,48 +1,33 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-flip";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
+import OwlCarousel from 'react-owl-carousel';
 import "../App.css";
 
-// import required modules
-import { EffectFlip, Pagination, Navigation } from "swiper";
 
 const Sliderdemo = () => {
+
+
      return (
           <>
-               <Swiper
-                    effect={"flip"}
-                    grabCursor={true}
-                    pagination={true}
-                    navigation={true}
-                    modules={[EffectFlip, Pagination, Navigation]}
-                    className="mySwiper"
-               >
-                    <SwiperSlide>
-                         <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                         <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                         <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                         <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                         <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                         <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                    </SwiperSlide>
-               </Swiper>
+               <div className="slider index-3">
+                    <OwlCarousel className="owl-main  owl-theme" items={1} loop>
+                         {/* <Slide img={img1} title="Think Big Do Creative Grow Business " content={content1} loop />
+                         <Slide img={img2} title="Think Big Do Creative Grow Business " content={content1} loop />
+                         <Slide img={img3} title="Think Big Do Creative Grow Business " content={content1} />
+                         <Slide img={img4} title="Think Big Do Creative Grow Business " content={content1} /> */}
+
+                         <div className="item">
+                              <img className="d-block w-100" src={require('./Slider_assets/slider-1.png')} alt="First slide" />
+
+                              <div className="caption d-md-block">
+                                   <div className="display">{'Hello'} </div>
+                                   <div className="content">{'This Is Demo'}</div>
+                                   {/* <Link to="/about" className="view_more" title="View More">View More</Link>
+                                   <Link to="/contactUs" className="view_more contact_us" title="Contact Us">Contact Us</Link> */}
+                              </div>
+
+                         </div>
+                    </OwlCarousel>
+               </div>
           </>
      )
 }

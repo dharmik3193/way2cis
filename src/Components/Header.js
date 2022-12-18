@@ -1,3 +1,5 @@
+import '../App.css'
+
 const Header = () => {
      return (
           <>
@@ -83,9 +85,9 @@ const Header = () => {
                     <div className="container">
                          <div className="row">
                               <div className="col-md-3">
-                                   <div className="logo mt-4">
+                                   <div className="logo mt-2">
                                         <a className="logo_img" href="index.html" title="techno">
-                                             <img src="assets/images/1.png" alt="" />
+                                             <img src="assets/images/logo.png" alt="" />
                                         </a>
                                         <a className="main_sticky" href="index.html" title="techno">
                                              <img src="assets/images/logo.png" alt="astute" />
