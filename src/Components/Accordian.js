@@ -1,4 +1,24 @@
+import { Accordion, Card, useAccordionButton } from "react-bootstrap";
+import { BsChevronDoubleDown, BsFillCheckCircleFill } from "react-icons/bs";
+
 const Accordian = () => {
+
+     function CustomToggle({ children, eventKey }) {
+          const decoratedOnClick = useAccordionButton(eventKey, () =>
+               console.log('totally custom!'),
+          );
+
+          return (
+               <button
+                    type="button"
+                    style={{ backgroundColor: 'pink' }}
+                    onClick={decoratedOnClick}
+               >
+                    {children}
+               </button>
+          );
+     }
+
      return (
           <>
                {/*==================================================*/}
@@ -22,53 +42,66 @@ const Accordian = () => {
                                                   <div className="em_bar_bg" />
                                              </div>
                                         </div>
-                                        <div className="panel-group symb" id="accordion">
-                                             <div className="panel panel-default">
-                                                  <div className="panel-heading mb-3">
-                                                       <h4 className="panel-title">
-                                                            <a
-                                                                 data-toggle="collapse"
-                                                                 data-parent="#accordion"
-                                                                 href="#ac1"
-                                                            >
-                                                                 <i className="fa fa-check-circle" />
-                                                                 Best IT Solution Provider
-                                                            </a>
-                                                       </h4>
-                                                  </div>
-                                                  <div id="ac1" className="panel-collapse in">
-                                                       <div className="panel-body pl-4 pr-4">
-                                                            <p>
-                                                                 There are many variations of passages of Lorem Ipsum
-                                                                 available, but the majority have suffered alteration in
-                                                                 some form, by injected humour, or randomised words which
-                                                            </p>
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                             <div className="panel panel-default">
-                                                  <div className="panel-heading mb-3">
-                                                       <h4 className="panel-title">
-                                                            <a
-                                                                 data-toggle="collapse"
-                                                                 data-parent="#accordion"
-                                                                 href="#ac2"
-                                                            >
-                                                                 <i className="fa fa-check-circle" />
-                                                                 Experienced Engineers
-                                                            </a>
-                                                       </h4>
-                                                  </div>
-                                                  <div id="ac2" className="panel-collapse collapse">
-                                                       <div className="panel-body pl-4 pr-4">
-                                                            <p>
-                                                                 There are many variations of passages of Lorem Ipsum
-                                                                 available, but the majority have suffered alteration in
-                                                                 some form,
-                                                            </p>
-                                                       </div>
-                                                  </div>
-                                             </div>
+                                        <Accordion defaultActiveKey="1">
+                                             <Card>
+                                                  <Card.Header className="accordian-head">
+                                                       <CustomToggle eventKey="0">
+                                                            <span className="panel-title d-flex justify-content-between">
+                                                                 <BsChevronDoubleDown className="mr-2 mb-1" />
+                                                                 <BsFillCheckCircleFill className="mr-2 mb-1" />
+                                                                 <span>{" "}Best IT Solution Provider</span>
+                                                            </span>
+                                                       </CustomToggle>
+                                                  </Card.Header>
+                                                  <Accordion.Collapse eventKey="0">
+                                                       <Card.Body>There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in
+                                                            some form, by injected humour, or randomised words which</Card.Body>
+                                                  </Accordion.Collapse>
+                                             </Card>
+                                        </Accordion>
+
+
+                                        <Accordion defaultActiveKey="0">
+                                             <Card>
+                                                  <Card.Header className="accordian-head">
+                                                       <CustomToggle eventKey="0">
+                                                            <span className="panel-title d-flex justify-content-between">
+                                                                 <BsChevronDoubleDown className="mr-2 mb-1" />
+                                                                 <BsFillCheckCircleFill className="mr-2 mb-1" />
+                                                                 <span>{" "}Experienced Engineers</span>
+                                                            </span>
+                                                       </CustomToggle>
+                                                  </Card.Header>
+                                                  <Accordion.Collapse eventKey="0">
+                                                       <Card.Body> There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in
+                                                            some form,</Card.Body>
+                                                  </Accordion.Collapse>
+                                             </Card>
+                                        </Accordion>
+
+                                        <Accordion defaultActiveKey="1">
+                                             <Card>
+                                                  <Card.Header className="accordian-head">
+                                                       <CustomToggle eventKey="0">
+                                                            <span className="panel-title d-flex justify-content-between">
+                                                                 <BsChevronDoubleDown className="mr-2 mb-1" />
+                                                                 <BsFillCheckCircleFill className="mr-2 mb-1" />
+                                                                 <span>{" "}Internet Of Things</span>
+                                                            </span>
+                                                       </CustomToggle>
+                                                  </Card.Header>
+                                                  <Accordion.Collapse eventKey="0">
+                                                       <Card.Body> There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in
+                                                            some form, by injected humour, or randomised words which</Card.Body>
+                                                  </Accordion.Collapse>
+                                             </Card>
+                                        </Accordion>
+
+                                        {/* <div className="panel-group symb" id="accordion">
+
                                              <div className="panel panel-default">
                                                   <div className="panel-heading mb-3">
                                                        <h4 className="panel-title">
@@ -92,7 +125,7 @@ const Accordian = () => {
                                                        </div>
                                                   </div>
                                              </div>
-                                        </div>
+                                        </div> */}
                                    </div>
                                    {/* End Accordion */}
                               </div>
