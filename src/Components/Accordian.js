@@ -141,7 +141,8 @@ const Accordian = () => {
                                                             className="video-vemo-icon venobox vbox-item"
                                                             data-vbtype="youtube"
                                                             data-autoplay="true"
-                                                            href="https://youtu.be/BS4TUd7FJSg"
+                                                            target='_blank'
+                                                            href="https://youtu.be/MDGyUe7UVeQ"
                                                        >
                                                             <i className="fa fa-play" />
                                                        </a>

@@ -2,6 +2,7 @@ import { Navbar, Container, Offcanvas, Nav, NavDropdown, Form, Button } from 're
 import '../App.css'
 import { BsInstagram, BsList } from 'react-icons/bs'
 import { AiFillInstagram } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Headerdemo = () => {
      return (
@@ -67,12 +68,12 @@ const Headerdemo = () => {
                <Navbar collapseOnSelect expand="lg" bg="loght" variant="dark" className='row'>
                     <Container >
 
-                         <Navbar.Brand href="#home" className='col-3'><img src="assets/images/logo.png" alt="" /></Navbar.Brand>
+                         <Navbar.Brand className='col-3'><Link to='/'><img src="assets/images/logo.png" alt="" /></Link></Navbar.Brand>
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" ><BsList /></Navbar.Toggle>
                          <Navbar.Collapse id="responsive-navbar-nav" className='col-8'>
                               <Nav className="me-auto">
-                                   <Nav.Link href="#features">Home</Nav.Link>
-                                   <Nav.Link href="#features">Company</Nav.Link>
+                                   <Nav.Link><Link to='/' className='link_color'>Home</Link></Nav.Link>
+                                   <Nav.Link><Link to='/company' className='link_color'>Company</Link></Nav.Link>
                                    <Nav.Link href="#features">Product</Nav.Link>
                                    <Nav.Link href="#features">Industries</Nav.Link>
                                    <Nav.Link href="#features">Services</Nav.Link>

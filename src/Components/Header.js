@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../App.css'
 
 const Header = () => {
@@ -86,12 +87,12 @@ const Header = () => {
                          <div className="row">
                               <div className="col-md-3">
                                    <div className="logo mt-2">
-                                        <a className="logo_img" href="index.html" title="techno">
+                                        <Link className='logo_img' to='/' title='Way2CIS'>
                                              <img src="assets/images/logo.png" alt="" />
-                                        </a>
-                                        <a className="main_sticky" href="index.html" title="techno">
+                                        </Link>
+                                        <Link className='main_sticky' to='/' title='Way2CIS'>
                                              <img src="assets/images/logo.png" alt="astute" />
-                                        </a>
+                                        </Link>
                                    </div>
                               </div>
                               <div className="col-md-9">
