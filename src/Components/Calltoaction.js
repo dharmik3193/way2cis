@@ -13,7 +13,7 @@ const Calltoaction = () => {
                               <div className="col-lg-9">
                                    <div className="section_title white text_left mb-60 mt-3">
                                         <div className="phone_number mb-3">
-                                             <h5>+880 013 143 206</h5>
+                                             <h5>+968-91945242</h5>
                                         </div>
                                         <div className="section_main_title">
                                              <h1>To make requests for the</h1>
