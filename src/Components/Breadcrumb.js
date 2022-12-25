@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Breadcrumb = () => {
      return (
           <>
@@ -16,8 +18,8 @@ const Breadcrumb = () => {
                                              <div className="breatcome_content">
                                                   <ul>
                                                        <li>
-                                                            <a href="index.html">Home</a>{" "}
-                                                            <i className="fa fa-angle-right" /> <a href="#"> Pages</a>{" "}
+                                                            <Link to='/'>Home</Link>{" "}
+                                                            <i className="fa fa-angle-right" /> <a> Pages</a>{" "}
                                                             <i className="fa fa-angle-right" /> <span>About Us</span>
                                                        </li>
                                                   </ul>
