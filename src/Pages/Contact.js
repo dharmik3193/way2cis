@@ -1,15 +1,14 @@
-import Headerdemo from "../Components/Headerdemo";
 import Footer from "../Components/Footer";
+import Headerdemo from "../Components/Headerdemo";
 
-const Products = () => {
+const Contact = () => {
      return (
           <>
                <Headerdemo />
-               <h1>This Is Product Page</h1>
+               <h1>This Is Contact Page</h1>
                <Footer />
           </>
      )
-
 }
 
-export default Products;
+export default Contact;

@@ -1,7 +1,6 @@
 import { Navbar, Container, Offcanvas, Nav, NavDropdown, Form, Button } from 'react-bootstrap'
 import '../App.css'
 import { BsInstagram, BsList } from 'react-icons/bs'
-import { AiFillInstagram } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 const Headerdemo = () => {
@@ -74,12 +73,12 @@ const Headerdemo = () => {
                               <Nav className="me-auto">
                                    <Nav.Link><Link to='/' className='link_color'>Home</Link></Nav.Link>
                                    <Nav.Link><Link to='/company' className='link_color'>Company</Link></Nav.Link>
-                                   <Nav.Link href="#features">Product</Nav.Link>
-                                   <Nav.Link href="#features">Industries</Nav.Link>
-                                   <Nav.Link href="#features">Services</Nav.Link>
-                                   <Nav.Link href="#features">Partner</Nav.Link>
-                                   <Nav.Link href="#features">Career</Nav.Link>
-                                   <Nav.Link href="#features">Contact</Nav.Link>
+                                   <Nav.Link><Link to='/product' className='link_color'>Product</Link></Nav.Link>
+                                   <Nav.Link><Link to='/industries' className='link_color'>Industries</Link></Nav.Link>
+                                   <Nav.Link>Services</Nav.Link>
+                                   <Nav.Link><Link to='/partner' className='link_color'>Partner</Link></Nav.Link>
+                                   <Nav.Link><Link to='/career' className='link_color'>Career</Link></Nav.Link>
+                                   <Nav.Link><Link to='/contact' className='link_color'>Contact</Link></Nav.Link>
                               </Nav>
                          </Navbar.Collapse>
 
