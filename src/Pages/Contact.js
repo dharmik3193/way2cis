@@ -1,6 +1,6 @@
 import Footer from "../Components/Footer";
 import Headerdemo from "../Components/Headerdemo";
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaMapPin, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
      return (
@@ -62,8 +62,38 @@ const Contact = () => {
                                         <div className="single_contact_address text_center mb-30">
                                              <div className="row">
                                                   <div className="contact_address_title pb-2 col">
+                                                       <h4>U.A.E</h4>
+                                                  </div>
+                                             </div>
+                                             <div className="row">
+                                                  <div className="col-2 location_icon"><FaMapPin /></div>
+                                                  <div className="col-10 text-left">Modern Advance Computer System Fze</div>
+                                             </div>
+                                             <div className="row">
+                                                  <div className="col-2 location_icon"><FaMapMarkerAlt /></div>
+                                                  <div className="col-10 text-left">P.O.Box: 7073, Umm Al Quwain, U.A.E</div>
+                                             </div>
+                                             <div className="row">
+                                                  <div className="col-2 location_icon"><FaPhoneAlt /></div>
+                                                  <div className="col-10 text-left">+971-523308910</div>
+                                             </div>
+                                             <div className="row">
+                                                  <div className="col-2 location_icon"><FaEnvelope /></div>
+                                                  <div className="col-10 text-left">info@way2cis.com</div>
+                                             </div>
+
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12">
+                                        <div className="single_contact_address text_center mb-30">
+                                             <div className="row">
+                                                  <div className="contact_address_title pb-2 col">
                                                        <h4>India</h4>
                                                   </div>
+                                             </div>
+                                             <div className="row">
+                                                  <div className="col-2 location_icon"><FaMapPin /></div>
+                                                  <div className="col-10 text-left">Way2Cis</div>
                                              </div>
                                              <div className="row">
                                                   <div className="col-2 location_icon"><FaMapMarkerAlt /></div>
@@ -88,6 +118,10 @@ const Contact = () => {
                                                   </div>
                                              </div>
                                              <div className="row">
+                                                  <div className="col-2 location_icon"><FaMapPin /></div>
+                                                  <div className="col-10 text-left">Modern Advance Computer System LLC</div>
+                                             </div>
+                                             <div className="row">
                                                   <div className="col-2 location_icon"><FaMapMarkerAlt /></div>
                                                   <div className="col-10 text-left">P.O.Box:1890, PC:130 Sultanate of Oman</div>
                                              </div>
@@ -98,28 +132,6 @@ const Contact = () => {
                                              <div className="row">
                                                   <div className="col-2 location_icon"><FaEnvelope /></div>
                                                   <div className="col-10 text-left">info@way2cis.com</div>
-                                             </div>
-
-                                        </div>
-                                   </div>
-                                   <div className="col-lg-4 col-md-6 col-sm-12">
-                                        <div className="single_contact_address text_center mb-30">
-                                             <div className="row">
-                                                  <div className="contact_address_title pb-2 col">
-                                                       <h4>India</h4>
-                                                  </div>
-                                             </div>
-                                             <div className="row">
-                                                  <div className="col-2 location_icon"><FaMapMarkerAlt /></div>
-                                                  <div className="col-10 text-left">803/Gala Empire, Opp. Door-Darshan Tower, Thaltej, Ahmedabad, Gujarat-380059, India.</div>
-                                             </div>
-                                             <div className="row">
-                                                  <div className="col-2 location_icon"><FaPhoneAlt /></div>
-                                                  <div className="col-10 text-left">+91 94273 85096</div>
-                                             </div>
-                                             <div className="row">
-                                                  <div className="col-2 location_icon"><FaEnvelope /></div>
-                                                  <div className="col-10 text-left">maulik@way2cis.com</div>
                                              </div>
 
                                         </div>
