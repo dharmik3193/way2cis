@@ -178,5 +178,22 @@
 }
 
 .section_main_title h2 span {
-  color: #0C5ADB;
+  color: #0c5adb;
+}
+
+.flag {
+  /* font-size: 20px; */
+  width: 10px;
+}
+
+.location_icon {
+  font-size: 16px;
+  color: #0c5adb;
+}
+
+.test1 {
+  background-color: aqua;
+}
+.test2 {
+  background-color: blueviolet;
 }
