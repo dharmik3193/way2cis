@@ -9,6 +9,7 @@ import Industries from './Pages/Industries';
 import Partner from './Pages/Partner';
 import Career from './Pages/Career';
 import Contact from './Pages/Contact';
+import Professional from './Pages/Professional';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route exact path='/partner' element={< Partner />}></Route>
         <Route exact path='/career' element={< Career />}></Route>
         <Route exact path='/contact' element={< Contact />}></Route>
+        <Route exact path='/professional_services' element={< Professional />}></Route>
       </Routes>
 
     </>

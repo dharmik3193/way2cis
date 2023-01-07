@@ -197,3 +197,92 @@
 .test2 {
   background-color: blueviolet;
 }
+
+iframe .i4ewOd-pzNkMb-haAclf {
+  display: none !important;
+  z-index: -1 !important;
+}
+
+.navbar-nav a:nth-child(5) {
+  background-color: green;
+}
+.main_menu {
+  display: flex;
+  list-style: none;
+}
+
+.link_color {
+  font-size: 14px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .link_color {
+    font-size: 12px;
+  }
+  .logo {
+    width: 250px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .logo {
+    width: 250px;
+  }
+  .main_menu {
+    display: block;
+    text-align: center;
+  }
+}
+
+.services {
+  position: relative;
+}
+.submenu {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  width: max-content;
+  position: absolute;
+  padding-bottom: 0;
+  border-radius: 5%;
+  border-bottom: #0c5adb 3px solid;
+  color: #0c5adb;
+  transition: 1s;
+}
+.submenu li {
+  border-bottom: 1px solid rgb(190, 189, 189);
+  list-style: none;
+  padding: 10px;
+}
+
+.submenu li:hover {
+  transition: 0.5s;
+  color: #fff;
+  background-color: #0c5adb;
+}
+
+.services:hover > .submenu {
+  display: block;
+}
+
+.section_content_text p {
+  text-align: justify;
+  text-indent: 5%;
+}
+.pricing_head_three:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: url(../public/assets/images/new/pricing-bg1.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+  z-index: -1;
+}
+
+.featur {
+  text-align: justify;
+}
