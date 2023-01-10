@@ -131,14 +131,19 @@ const Headerdemo = () => {
                 <li className="services">
                   <Nav.Link>Service</Nav.Link>
                   <ul className="submenu">
-                    <Link to={"/professional_services"}>
+                    <Link to="/professional_services">
                       {" "}
-                      <li>Industry Expertise</li>
+                      <li>Professional Services</li>
                     </Link>
-                    <li>Professional Services</li>
-                    <li>Education Services</li>
-                    <li>Support Services</li>
-                    <li>Cloud Services</li>
+                    <Link to="/education_services">
+                      <li>Education Services</li>
+                    </Link>
+                    <Link to="/support_services">
+                      <li>Support Services</li>
+                    </Link>
+                    <Link to="/cloud_services">
+                      <li>Cloud Services</li>
+                    </Link>
                   </ul>
                 </li>
                 <li>

@@ -10,6 +10,9 @@ import Partner from './Pages/Partner';
 import Career from './Pages/Career';
 import Contact from './Pages/Contact';
 import Professional from './Pages/Professional';
+import Education from './Pages/Education';
+import Support from './Pages/Support';
+import Cloud from './Pages/Cloud';
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route exact path='/career' element={< Career />}></Route>
         <Route exact path='/contact' element={< Contact />}></Route>
         <Route exact path='/professional_services' element={< Professional />}></Route>
+        <Route exact path='/education_services' element={< Education />}></Route>
+        <Route exact path='/support_services' element={< Support />}></Route>
+        <Route exact path='/cloud_services' element={< Cloud />}></Route>
       </Routes>
 
     </>
