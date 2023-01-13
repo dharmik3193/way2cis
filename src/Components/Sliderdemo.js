@@ -1,41 +1,81 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 import "../App.css";
+import WOW from 'wowjs';
+import $ from 'jquery';
 
 
 const Sliderdemo = () => {
 
+     useEffect(() => {
+          const wow = new WOW.WOW();
+          wow.init();
+     }, [])
+
+     window.onload = () => {
+
+          // const wow = new WOW.WOW();
+          // var owl = $('.owl-carousel');
+          // owl.owlCarousel();
+          // // Listen to owl events:
+          // owl.on('changed.owl.carousel', function (event) {
+          //      wow.init();
+          // })
+
+
+          if ($.isFunction('owlCarousel')) {
+               $('.owl-carousel').owlCarousel({
+                    animateOut: 'bounceInRight',
+                    animateIn: 'flipInX',
+                    items: 1,
+                    margin: 30,
+                    stagePadding: 30,
+                    smartSpeed: 450
+               });
+          }
+     }
+
+     const slider = () => {
+          console.log("Slider");
+          // if ($.isFunction('owlCarousel')) {
+          const wow = new WOW.WOW();
+          // var owl = $('.owl-carousel');
+          // owl.owlCarousel();
+          // owl.on('changed.owl.carousel', function (event) {
+          wow.init();
+          // })
+          // }
+     }
+
 
      return (
+
+
           <>
                <div className="slider index-3">
-                    <OwlCarousel className="owl-main  owl-theme" items={1} loop={true} autoPlay>
-                         {/* <Slide img={img1} title="Think Big Do Creative Grow Business " content={content1} loop />
-                         <Slide img={img2} title="Think Big Do Creative Grow Business " content={content1} loop />
-                         <Slide img={img3} title="Think Big Do Creative Grow Business " content={content1} />
-                         <Slide img={img4} title="Think Big Do Creative Grow Business " content={content1} /> */}
-
+                    <OwlCarousel items={1}
+                         className="owl-theme"
+                         loop={true}
+                         autoplay={true}
+                         // animateIn={true}
+                         margin={8}
+                         onChange={() => { slider() }}
+                    >
                          <div className="item">
                               <img className="d-block w-100" src={require('./Slider_assets/slider-1.png')} alt="First slide" />
-
-                              <div className="caption d-md-block">
-                                   <div className="display">{'CIS ERP'} </div>
+                              <div className="caption d-md-block wow bounceInRight">
+                                   <div className="display">{'CIS ERP1'}</div>
                                    <div className="content">{'ORACLE BASED ERP SOLUTIONS'}</div>
-                                   {/* <Link to="/about" className="view_more" title="View More">View More</Link>
-                                   <Link to="/contactUs" className="view_more contact_us" title="Contact Us">Contact Us</Link> */}
                               </div>
-
                          </div>
                          <div className="item">
                               <img className="d-block w-100" src={require('./Slider_assets/slider-2.png')} alt="First slide" />
-
-                              <div className="caption d-md-block">
-                                   <div className="display">{'CIS ERP'} </div>
+                              <div className="caption d-md-block wow bounceInRight">
+                                   <div className="display">{'CIS ERP2'}</div>
                                    <div className="content">{'ORACLE BASED ERP SOLUTIONS'}</div>
-                                   {/* <Link to="/about" className="view_more" title="View More">View More</Link>
-                                   <Link to="/contactUs" className="view_more contact_us" title="Contact Us">Contact Us</Link> */}
                               </div>
-
                          </div>
                     </OwlCarousel>
                </div>

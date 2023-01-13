@@ -46,10 +46,10 @@ const Products = () => {
                                    <div className="col-lg-12">
                                         <div className="section_title text_center mb-55">
                                              <div className="section_sub_title uppercase mb-3">
-                                                  <h6>SERVICES</h6>
+                                                  <h6>Product</h6>
                                              </div>
                                              <div className="section_main_title">
-                                                  <h1>Provide Exclusive Services</h1>
+                                                  <h1>Provide Exclusive Products</h1>
                                              </div>
                                              <div className="em_bar">
                                                   <div className="em_bar_bg" />
@@ -68,13 +68,13 @@ const Products = () => {
                                                             </div>
                                                        </div>
                                                        <div className="flipbox_title">
-                                                            <h3>Marketing Strategy</h3>
+                                                            <h3>Purchase Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
-                                                            <p>
+                                                            {/* <p>
                                                                  Porem asum molor sit amet, consectetur adipiscing do miusmod
                                                                  tempor.
-                                                            </p>
+                                                            </p> */}
                                                        </div>
                                                   </div>
                                              </div>
@@ -84,17 +84,16 @@ const Products = () => {
                                              >
                                                   <div className="techno_flipbox_inner">
                                                        <div className="flipbox_title">
-                                                            <h3>Free Online Course</h3>
+                                                            <h3>Purchase Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
-                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                                 tempor.
+                                                                 Purchase Management System is a tool for managing your day-to-day purchases.
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
                                                             <a href="">
-                                                                 Read More
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
                                                             </a>
                                                        </div>
@@ -112,12 +111,12 @@ const Products = () => {
                                                             </div>
                                                        </div>
                                                        <div className="flipbox_title">
-                                                            <h3>Interior Design</h3>
+                                                            <h3>Sales Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
-                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                                 tempor.
+                                                                 {/* Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor. */}
                                                             </p>
                                                        </div>
                                                   </div>
@@ -128,17 +127,16 @@ const Products = () => {
                                              >
                                                   <div className="techno_flipbox_inner">
                                                        <div className="flipbox_title">
-                                                            <h3>Interior Design</h3>
+                                                            <h3>Sales Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
-                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                                 tempor.
+                                                                 An effective sales management process will encompass lead and opportunity management.
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
                                                             <a href="">
-                                                                 Read More
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
                                                             </a>
                                                        </div>
@@ -156,13 +154,13 @@ const Products = () => {
                                                             </div>
                                                        </div>
                                                        <div className="flipbox_title">
-                                                            <h3>Digital Services</h3>
+                                                            <h3>Inventory Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
-                                                            <p>
+                                                            {/* <p>
                                                                  Porem asum molor sit amet, consectetur adipiscing do miusmod
                                                                  tempor.
-                                                            </p>
+                                                            </p> */}
                                                        </div>
                                                   </div>
                                              </div>
@@ -172,17 +170,16 @@ const Products = () => {
                                              >
                                                   <div className="techno_flipbox_inner">
                                                        <div className="flipbox_title">
-                                                            <h3>Online Marketing</h3>
+                                                            <h3>Inventory Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
-                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                                 tempor.
+                                                                 Inventory management systems centralizes the process for controlling the flow and maintenance of inventory
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
                                                             <a href="">
-                                                                 Read More
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
                                                             </a>
                                                        </div>
@@ -200,13 +197,13 @@ const Products = () => {
                                                             </div>
                                                        </div>
                                                        <div className="flipbox_title">
-                                                            <h3>Product Selling</h3>
+                                                            <h3>Production Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
-                                                            <p>
+                                                            {/* <p>
                                                                  Porem asum molor sit amet, consectetur adipiscing do miusmod
                                                                  tempor.
-                                                            </p>
+                                                            </p> */}
                                                        </div>
                                                   </div>
                                              </div>
@@ -216,17 +213,16 @@ const Products = () => {
                                              >
                                                   <div className="techno_flipbox_inner">
                                                        <div className="flipbox_title">
-                                                            <h3>Online Product</h3>
+                                                            <h3>Production Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
-                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                                 tempor.
+                                                                 We provides variety of worksheets assist you in production process.
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
                                                             <a href="">
-                                                                 Read More
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
                                                             </a>
                                                        </div>
@@ -244,13 +240,13 @@ const Products = () => {
                                                             </div>
                                                        </div>
                                                        <div className="flipbox_title">
-                                                            <h3>Product Design</h3>
+                                                            <h3>Financial Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
-                                                            <p>
+                                                            {/* <p>
                                                                  Porem asum molor sit amet, consectetur adipiscing do miusmod
                                                                  tempor.
-                                                            </p>
+                                                            </p> */}
                                                        </div>
                                                   </div>
                                              </div>
@@ -260,12 +256,54 @@ const Products = () => {
                                              >
                                                   <div className="techno_flipbox_inner">
                                                        <div className="flipbox_title">
-                                                            <h3>24/7 Support</h3>
+                                                            <h3>Financial Management System</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
+                                                                 Finance System help the user to identified the customer total outstanding as well as supplier out standing.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>Fixed Assets Management System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
                                                                  Porem asum molor sit amet, consectetur adipiscing do miusmod
                                                                  tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>Fixed Assets Management System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 Fixed Assets Management System keeps all records related to fixed asset transactions.
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
@@ -288,13 +326,13 @@ const Products = () => {
                                                             </div>
                                                        </div>
                                                        <div className="flipbox_title">
-                                                            <h3>Digital Services</h3>
+                                                            <h3>Automobile Management</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
-                                                            <p>
+                                                            {/* <p>
                                                                  Porem asum molor sit amet, consectetur adipiscing do miusmod
                                                                  tempor.
-                                                            </p>
+                                                            </p> */}
                                                        </div>
                                                   </div>
                                              </div>
@@ -304,17 +342,274 @@ const Products = () => {
                                              >
                                                   <div className="techno_flipbox_inner">
                                                        <div className="flipbox_title">
-                                                            <h3>Social Marketing</h3>
+                                                            <h3>Automobile Management</h3>
                                                        </div>
                                                        <div className="flipbox_desc">
                                                             <p>
-                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                                 tempor.
+                                                                 We Provides a Fully Automated Environment Where You can see the work progress.
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
                                                             <a href="">
                                                                  Read More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>POS System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
+                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>POS System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 Transform the store with a true, single commerce (online, in-store, call center) platform.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>Fleet Management</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
+                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>Fleet Management</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 The goal here is is to keep the fleet operating smoothly by reducing costs, and ensuring compliance with government regulations.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>Property Management</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
+                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>Property Management</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 Property management software is designed to help property managers manage residential and commercial properties on behalf of their owners.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>Service Management</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
+                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>Service Management</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 FSM software is normally used by companies that focus on handling installs, repairs, and services of work equipment.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>Payroll & HR Management System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
+                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>Payroll & HR Management System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 Payroll Management System is one of the most important functions of an organization.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
+                                                                 <i className="fa fa-angle-double-right" />
+                                                            </a>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+                                        <div className="techno_flipbox mb-30">
+                                             <div className="techno_flipbox_font">
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="techno_flipbox_icon">
+                                                            <div className="icon">
+                                                                 <i className="flaticon-business-and-finance" />
+                                                            </div>
+                                                       </div>
+                                                       <div className="flipbox_title">
+                                                            <h3>Portfolio Management System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            {/* <p>
+                                                                 Porem asum molor sit amet, consectetur adipiscing do miusmod
+                                                                 tempor.
+                                                            </p> */}
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div
+                                                  className="techno_flipbox_back "
+                                                  style={{ backgroundImage: "url(assets/images/feature2.jpg)" }}
+                                             >
+                                                  <div className="techno_flipbox_inner">
+                                                       <div className="flipbox_title">
+                                                            <h3>Portfolio Management System</h3>
+                                                       </div>
+                                                       <div className="flipbox_desc">
+                                                            <p>
+                                                                 Portfolio management is to maximize the investments' expected return given an appropriate level of risk exposure.
+                                                            </p>
+                                                       </div>
+                                                       <div className="flipbox_button">
+                                                            <a href="">
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
                                                             </a>
                                                        </div>
