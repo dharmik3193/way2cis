@@ -21,7 +21,7 @@ const Home = () => {
                <Headerdemo />
                {/* <Slider /> */}
                <Sliderdemo />
-               {/* <Features />
+               <Features />
                <AboutHome />
                <FlipboxServices />
                <Team />
@@ -31,7 +31,7 @@ const Home = () => {
                <Testimonial />
                <Contact />
                <Subscribe />
-               <Footer /> */}
+               <Footer />
           </>
      )
 }
