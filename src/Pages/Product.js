@@ -1,6 +1,7 @@
 import Headerdemo from "../Components/Headerdemo";
 import Footer from "../Components/Footer";
 import Testimonial from "../Components/Testimonial";
+import { Link } from "react-router-dom";
 
 const Products = () => {
      return (
@@ -92,10 +93,10 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to="/purchase_management">
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -135,10 +136,10 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/sales_management'>
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -178,10 +179,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/inventory_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -221,10 +224,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/production_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -264,10 +269,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/financial_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -307,10 +314,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
-                                                                 Read More
+                                                            <Link to='/fixed-assets_management'>
+
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -350,10 +359,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
-                                                                 Read More
+                                                            <Link to='/automobile_management'>
+
+                                                                 Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>

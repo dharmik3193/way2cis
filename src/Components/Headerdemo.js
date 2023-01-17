@@ -97,7 +97,7 @@ const Headerdemo = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
             <BsList />
           </Navbar.Toggle>
-          <Navbar.Collapse id="responsive-navbar-nav" className="col-8">
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <ul className="main_menu">
                 <li>

@@ -13,6 +13,13 @@ import Professional from './Pages/Professional';
 import Education from './Pages/Education';
 import Support from './Pages/Support';
 import Cloud from './Pages/Cloud';
+import Purchase_management from './Pages/Purchase_management';
+import Sales_manage from './Pages/Sales_manage';
+import Inventory from './Pages/Inventory';
+import Production from './Pages/Production';
+import Financial from './Pages/Financial';
+import Fixedassets from './Pages/Fixedassets';
+import Automobile from './Pages/Automobile';
 
 function App() {
   return (
@@ -34,6 +41,13 @@ function App() {
         <Route exact path='/education_services' element={< Education />}></Route>
         <Route exact path='/support_services' element={< Support />}></Route>
         <Route exact path='/cloud_services' element={< Cloud />}></Route>
+        <Route exact path='/purchase_management' element={< Purchase_management />}></Route>
+        <Route exact path='/sales_management' element={< Sales_manage />}></Route>
+        <Route exact path='/inventory_management' element={< Inventory />}></Route>
+        <Route exact path='/production_management' element={< Production />}></Route>
+        <Route exact path='/financial_management' element={< Financial />}></Route>
+        <Route exact path='/fixed-assets_management' element={< Fixedassets />}></Route>
+        <Route exact path='/automobile_management' element={< Automobile />}></Route>
       </Routes>
 
     </>
