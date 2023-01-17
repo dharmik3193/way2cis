@@ -1,5 +1,5 @@
-import Footer from "../Components/Footer";
-import Headerdemo from "../Components/Headerdemo";
+import Footer from "../../Components/Footer";
+import Headerdemo from "../../Components/Headerdemo";
 import { TbBooks, TbBuildingSkyscraper, TbBulb, TbChartAreaLine, TbClock, TbUsers } from "react-icons/tb";
 import { FaAndroid, FaApple, FaLaravel } from "react-icons/fa";
 

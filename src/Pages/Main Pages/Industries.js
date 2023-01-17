@@ -1,6 +1,6 @@
-import Flipboxindustries from "../Components/Flipboxindustries";
-import Footer from "../Components/Footer";
-import Headerdemo from "../Components/Headerdemo";
+import Flipboxindustries from "../../Components/Flipboxindustries";
+import Footer from "../../Components/Footer";
+import Headerdemo from "../../Components/Headerdemo";
 
 const Industries = () => {
      return (

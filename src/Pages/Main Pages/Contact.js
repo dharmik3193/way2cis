@@ -1,5 +1,5 @@
-import Footer from "../Components/Footer";
-import Headerdemo from "../Components/Headerdemo";
+import Footer from "../../Components/Footer";
+import Headerdemo from "../../Components/Headerdemo";
 import { FaEnvelope, FaMapMarkerAlt, FaMapPin, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {

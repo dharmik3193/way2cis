@@ -1,6 +1,6 @@
-import Headerdemo from "../Components/Headerdemo";
-import Footer from "../Components/Footer";
-import Testimonial from "../Components/Testimonial";
+import Headerdemo from "../../Components/Headerdemo";
+import Footer from "../../Components/Footer";
+import Testimonial from "../../Components/Testimonial";
 import { Link } from "react-router-dom";
 
 const Products = () => {

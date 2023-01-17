@@ -1,5 +1,5 @@
-import Footer from "../Components/Footer";
-import Headerdemo from "../Components/Headerdemo";
+import Footer from "../../Components/Footer";
+import Headerdemo from "../../Components/Headerdemo";
 
 const Partner = () => {
      return (
@@ -63,14 +63,14 @@ const Partner = () => {
                                              <div class="col-md-6 col-xs-12">
                                                   <div class="item">
                                                        <figure class="image-box">
-                                                            <img src={require('../Assets/partner.jpg')} alt="" class="img-responsive" />
+                                                            <img src={require('../../Assets/partner.jpg')} alt="" class="img-responsive" />
                                                        </figure>
                                                   </div>
                                              </div>
                                              <div class="col-md-6 col-xs-12">
                                                   <div class="item clearfix">
                                                        <div class="content-box">
-                                                            <img src={require('../Assets/oracle.png')} class="img-responsive" />
+                                                            <img src={require('../../Assets/oracle.png')} class="img-responsive" />
                                                             <h4 class="text-center">We are authorized Oracle Silver Partner. </h4>
 
                                                        </div>
