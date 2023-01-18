@@ -404,10 +404,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/pos_system'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -447,10 +449,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/fleet_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -490,10 +494,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/property_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -533,10 +539,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/service_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -576,10 +584,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/payroll_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>
@@ -619,10 +629,12 @@ const Products = () => {
                                                             </p>
                                                        </div>
                                                        <div className="flipbox_button">
-                                                            <a href="">
+                                                            <Link to='/portfolio_management'>
+
                                                                  Learn More
                                                                  <i className="fa fa-angle-double-right" />
-                                                            </a>
+
+                                                            </Link>
                                                        </div>
                                                   </div>
                                              </div>

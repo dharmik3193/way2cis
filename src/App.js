@@ -20,6 +20,12 @@ import Production from './Pages/Production';
 import Financial from './Pages/Financial';
 import Fixedassets from './Pages/Fixedassets';
 import Automobile from './Pages/Automobile';
+import POS from './Pages/POS';
+import Fleet from './Pages/Fleet';
+import Property from './Pages/Property';
+import Service from './Pages/Service';
+import Payroll from './Pages/Payroll';
+import Portfolio from './Pages/Portfolio';
 
 function App() {
   return (
@@ -48,6 +54,12 @@ function App() {
         <Route exact path='/financial_management' element={< Financial />}></Route>
         <Route exact path='/fixed-assets_management' element={< Fixedassets />}></Route>
         <Route exact path='/automobile_management' element={< Automobile />}></Route>
+        <Route exact path='/pos_system' element={< POS />}></Route>
+        <Route exact path='/fleet_management' element={< Fleet />}></Route>
+        <Route exact path='/property_management' element={< Property />}></Route>
+        <Route exact path='/service_management' element={< Service />}></Route>
+        <Route exact path='/payroll_management' element={< Payroll />}></Route>
+        <Route exact path='/portfolio_management' element={< Portfolio />}></Route>
       </Routes>
 
     </>
