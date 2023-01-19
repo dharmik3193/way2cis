@@ -18,18 +18,18 @@ const Features = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Provide All Kind Of IT Services</h3>
+                                                       <h3>Global Talent Pool</h3>
                                                   </div>
                                              </div>
                                         </div>
                                         <div className="techno_flipbox_back">
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Provide All Kind Of IT Services</h3>
+                                                       <h3>Global Talent Pool</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Whether bringing new amazing products and services to market
+                                                            The team at Way2CIS holds an experience of working with international customers along with understanding of global development protocols.
                                                        </p>
                                                   </div>
                                              </div>
@@ -46,18 +46,18 @@ const Features = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Solution For All IT Security</h3>
+                                                       <h3>Innovation</h3>
                                                   </div>
                                              </div>
                                         </div>
                                         <div className="techno_flipbox_back">
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Solution For All IT Security</h3>
+                                                       <h3>Innovation</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Whether bringing new amazing products and services to market
+                                                            We believe in innovating and meeting customer needs in every project.
                                                        </p>
                                                   </div>
                                              </div>
@@ -74,18 +74,18 @@ const Features = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>All IT Consultancy Solution</h3>
+                                                       <h3>Quality-Focused</h3>
                                                   </div>
                                              </div>
                                         </div>
                                         <div className="techno_flipbox_back">
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>All IT Consultancy Solution</h3>
+                                                       <h3>Quality-Focused</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Whether bringing new amazing products and services to market
+                                                            We consistently focus on quality over quantity - that also makes us credible as a software company.
                                                        </p>
                                                   </div>
                                              </div>
@@ -102,18 +102,18 @@ const Features = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Best Experience Engineer </h3>
+                                                       <h3>Value for Money </h3>
                                                   </div>
                                              </div>
                                         </div>
                                         <div className="techno_flipbox_back">
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Best Experience Engineer </h3>
+                                                       <h3>Value for Money </h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Whether bringing new amazing products and services to market
+                                                            Way2CIS provides services at affordable and competitive rates with fast delivery.
                                                        </p>
                                                   </div>
                                              </div>

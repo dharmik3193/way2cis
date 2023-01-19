@@ -34,8 +34,7 @@ const AboutHome = () => {
                                         </div>
                                         <div className="section_content_text pt-4">
                                              <p>
-                                                  We are privileged to work with hundred future thinking awesom
-                                                  business including many of the world’s top hardware
+                                                  We are privileged to equip our customer with the most advanced and world class IT Solution which can enable them to have an edge over their competitors.
                                              </p>
                                         </div>
                                    </div>
@@ -47,10 +46,9 @@ const AboutHome = () => {
                                                   </div>
                                              </div>
                                              <div className="singel-about-content">
-                                                  <h5>Warranty Management</h5>
+                                                  <h5>Oracle Based ERP Solutions</h5>
                                                   <p>
-                                                       Morem Ipsum is simply dummy text of the printing and
-                                                       pepesetting found.
+                                                       We are authorized oracle silver partner to build ERP softwares and gives full upgradation to businesses.
                                                   </p>
                                              </div>
                                         </div>
@@ -61,10 +59,9 @@ const AboutHome = () => {
                                                   </div>
                                              </div>
                                              <div className="singel-about-content">
-                                                  <h5>Quality Control System</h5>
+                                                  <h5>210+ Projects</h5>
                                                   <p>
-                                                       Morem Ipsum is simply dummy text of the printing and
-                                                       pepesetting found.
+                                                       We have worked with versatile customers and businesses of all sizes over the years with successful completion of 210+ projects.
                                                   </p>
                                              </div>
                                         </div>

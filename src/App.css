@@ -323,9 +323,24 @@ iframe .i4ewOd-pzNkMb-haAclf {
   margin-top: -150px;
 }
 
+.service_home {
+  text-transform: capitalize;
+  font-weight: lighter !important;
+  font-size: 10px;
+}
+
 /* .main_menu li:hover {
   color: #0c5adb !important;
 }
 li .nav-link:active {
   color: #0c5adb;
+} */
+
+/* .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0%;
+  z-index: 999;
 } */

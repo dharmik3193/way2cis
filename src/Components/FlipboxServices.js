@@ -13,11 +13,11 @@ const FlipboxServices = () => {
                          <div className="row">
                               <div className="col-lg-12">
                                    <div className="section_title text_center white mb-55">
-                                        <div className="section_sub_title uppercase mb-3">
-                                             <h6>SERVICES</h6>
-                                        </div>
                                         <div className="section_main_title">
-                                             <h1>Provide Exclusive Services</h1>
+                                             <h1>Industries We Serve</h1>
+                                        </div>
+                                        <div className="section_sub_title uppercase mb-3 service_home">
+                                             <h6>We serve multiple industries globally. Our domain expertise is backed by our phenomenal experience of successfully conceptualizing and delivering 210+ projects.</h6>
                                         </div>
                                         <div className="em_bar">
                                              <div className="em_bar_bg" />

@@ -40,7 +40,7 @@ const Portfolio = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="tab_thumb">
-                <img src={require("../Assets/images/payroll.webp")} alt="" />
+                <img src={require("../Assets/images/portfolio.png")} alt="" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -50,34 +50,27 @@ const Portfolio = () => {
                 </div>
                 <div className="tab_content_text">
                   <p>
-                    Payroll Management System is one of the most important
-                    functions of an organization. It works on the compensation
-                    of employees which contains attendance management, leave
-                    management, advances, loans, bonuses, tax deductions,
-                    statutory compliance in accordance with the organization’s
-                    policies. Payroll Software in India can be quite complicated
-                    due to many laws enforced on organizations. Payroll software
-                    is a human resource function in salary processing and might
-                    generate dissatisfaction among the employees and directly
-                    result in reduced productivity, efficiency and also effects
-                    the turnover rates. Earlier, payroll management in India was
-                    done by involving a lot of paperwork which is difficult to
-                    handle for both employees and employers, especially to those
-                    who work in the human resource and finance department. Other
-                    than documenting and managing files, there is more chance of
-                    occurrence of errors. This procedure is considered as a
-                    time-consuming process and there is a huge impact on the
-                    overall productivity of the organization.
-                  </p>
-                  <p>
-                    A HRMS (Human Resource Management System) is a combination
-                    of systems and processes that connect human resource
-                    management and information technology through HR software. A
-                    HRMS may help to revolutionize a workplace. The automation
-                    of repetitive and time consuming tasks associated with human
-                    resources management frees up some of the companies most
-                    valuable employees and allows the focus to shift to culture,
-                    retention, and other highly impactful areas.
+                    Portfolio management is the art and science of making
+                    decisions about investment mix and policy, matching
+                    investments to objectives, asset allocation for individuals
+                    and institutions, and balancing risk against performance.
+                    Portfolio management is all about determining strengths,
+                    weaknesses, opportunities and threats in the choice of debt
+                    vs. equity, domestic vs. international, growth vs. safety,
+                    and many other trade-offs encountered in the attempt to
+                    maximize return at a given appetite for risk. Although it is
+                    common to use the terms "portfolio management" and
+                    "financial planning" as synonyms, these staples of the
+                    financial services industry are not the same. Portfolio
+                    management is the act of creating and maintaining an
+                    investment account, while financial planning is the process
+                    of developing financial goals and creating a plan of action
+                    to achieve them. Professional licensed portfolio managers
+                    are responsible for portfolio management on behalf of
+                    others, while individuals may choose to self-direct their
+                    own investments and build their own portfolio. Portfolio
+                    management's ultimate goal is to maximize the investments'
+                    expected return given an appropriate level of risk exposure.
                   </p>
                 </div>
               </div>
