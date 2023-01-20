@@ -36,13 +36,10 @@ const FlipboxServices = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Marketing Strategy</h3>
+                                                       <h3>Trading</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
-                                                       <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
-                                                       </p>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -52,19 +49,12 @@ const FlipboxServices = () => {
                                         >
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Free Online Course</h3>
+                                                       <h3>Trading</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
+                                                            WAY2CIS ERP software for trading business offers you the much needed and craved edge over your competitors in the market
                                                        </p>
-                                                  </div>
-                                                  <div className="flipbox_button">
-                                                       <a href="">
-                                                            Read More
-                                                            <i className="fa fa-angle-double-right" />
-                                                       </a>
                                                   </div>
                                              </div>
                                         </div>
@@ -80,13 +70,10 @@ const FlipboxServices = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Interior Design</h3>
+                                                       <h3>Manufaturing</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
-                                                       <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
-                                                       </p>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -96,19 +83,15 @@ const FlipboxServices = () => {
                                         >
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Interior Design</h3>
+                                                       <h3>Manufaturing</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
+                                                            Businesses today are striving to optimize resources and improve the overall business efficiency. To achieve all of this, technology serves as a key enabler.
                                                        </p>
                                                   </div>
                                                   <div className="flipbox_button">
-                                                       <a href="">
-                                                            Read More
-                                                            <i className="fa fa-angle-double-right" />
-                                                       </a>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -124,13 +107,10 @@ const FlipboxServices = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Digital Services</h3>
+                                                       <h3>Service</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
-                                                       <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
-                                                       </p>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -140,19 +120,15 @@ const FlipboxServices = () => {
                                         >
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Online Marketing</h3>
+                                                       <h3>Service</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
+                                                            An ERP for service business helps in overcoming the complexity and workarounds in service industry via its diversified intuitive features
                                                        </p>
                                                   </div>
                                                   <div className="flipbox_button">
-                                                       <a href="">
-                                                            Read More
-                                                            <i className="fa fa-angle-double-right" />
-                                                       </a>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -168,13 +144,10 @@ const FlipboxServices = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Product Selling</h3>
+                                                       <h3>Automobiles</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
-                                                       <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
-                                                       </p>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -184,19 +157,15 @@ const FlipboxServices = () => {
                                         >
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Online Product</h3>
+                                                       <h3>Automobiles</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
+                                                            ERP systems are destined to help synchronize production processes of all the stages and provide departments with an adequate information realm.
                                                        </p>
                                                   </div>
                                                   <div className="flipbox_button">
-                                                       <a href="">
-                                                            Read More
-                                                            <i className="fa fa-angle-double-right" />
-                                                       </a>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -212,13 +181,10 @@ const FlipboxServices = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Product Design</h3>
+                                                       <h3>Retail</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
-                                                       <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
-                                                       </p>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -228,19 +194,15 @@ const FlipboxServices = () => {
                                         >
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>24/7 Support</h3>
+                                                       <h3>Retail</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
+                                                            We offer solutions that would help you integrate all the processes to make your business efficient and more cost-effective. Our ERP and SCM offerings help you streamline your processes and manage your resources better.
                                                        </p>
                                                   </div>
                                                   <div className="flipbox_button">
-                                                       <a href="">
-                                                            Read More
-                                                            <i className="fa fa-angle-double-right" />
-                                                       </a>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -256,13 +218,10 @@ const FlipboxServices = () => {
                                                        </div>
                                                   </div>
                                                   <div className="flipbox_title">
-                                                       <h3>Digital Services</h3>
+                                                       <h3>Construction</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
-                                                       <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
-                                                       </p>
+
                                                   </div>
                                              </div>
                                         </div>
@@ -272,19 +231,15 @@ const FlipboxServices = () => {
                                         >
                                              <div className="techno_flipbox_inner">
                                                   <div className="flipbox_title">
-                                                       <h3>Social Marketing</h3>
+                                                       <h3>Construction</h3>
                                                   </div>
                                                   <div className="flipbox_desc">
                                                        <p>
-                                                            Porem asum molor sit amet, consectetur adipiscing do miusmod
-                                                            tempor.
+                                                            WAY2CIS ERP for Construction company in India bolsters the efficient operation of your business processes by integrating tasks related to Sales, Site Management and Staffing throughout the business.
                                                        </p>
                                                   </div>
                                                   <div className="flipbox_button">
-                                                       <a href="">
-                                                            Read More
-                                                            <i className="fa fa-angle-double-right" />
-                                                       </a>
+
                                                   </div>
                                              </div>
                                         </div>

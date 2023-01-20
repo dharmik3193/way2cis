@@ -329,6 +329,12 @@ iframe .i4ewOd-pzNkMb-haAclf {
   font-size: 10px;
 }
 
+.content_para {
+  font-weight: light;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
 /* .main_menu li:hover {
   color: #0c5adb !important;
 }
